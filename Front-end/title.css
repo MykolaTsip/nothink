@@ -1,0 +1,258 @@
+
+html, body {
+    margin: 0px;
+    font-size: 20px;
+}
+.brand {
+    background: #ffffff;
+    float: left;
+    padding : 15px;
+}
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper {
+    max-width: 1024px;
+    padding: 0 30px;
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    padding-top: 5px ;
+}
+nav .wrapper {
+    position: relative;
+}
+.menu li {
+    float: left;
+}
+.menu li a {
+    display: inline-block;
+    padding: 10px 15px;
+}
+.menuToggle {
+    padding: 10px 15px;
+    display: none;
+    cursor: pointer;
+}
+#menuCheck{
+    display: none;
+}
+h1 {
+    font-size: 1.9rem;
+}
+h3 {
+    font-size: 0.9rem;
+    color: #666666;
+}
+p {
+    font-size: 1rem;
+}
+a {
+    font-size: 1rem;
+}
+.header {
+    margin-left: 160px;
+    margin-top: 100px;
+}
+nav {
+    background: #00ffff;
+}
+.butt {
+    float: right;
+    margin-right: 25%;
+    margin-top: 150px;
+}
+.sect1 {
+    margin-top: 20px;
+    background: #00ffff;
+    padding-bottom: 20px;
+}
+.sect2 {
+    display: flex;
+}
+
+.com1 {
+width: 50%;
+height: 340px;
+background: #e6e6e6;
+}
+.com1 b {
+    margin-left: 25%;
+}
+.com1 * {
+    margin-left: 5%;
+}
+.com1_1 {
+ margin-top: 20px;
+}
+.com2 {
+    background: #c1c1c1;
+    height: 340px;
+    width: 50%
+    
+}
+footer {
+    width: 100%;
+    height: 250px;
+    background: #000000;
+    color: #ffffff;
+    
+}
+footer a {
+    color: #ffffff;
+
+}
+.rightside {
+    margin-top: 20px;
+    float: right;
+    margin-right: 80px;
+    
+}
+.leftside {
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+    
+}
+.centerside {
+ padding-top: 200px;
+ text-align: center;
+ margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 1125px) {
+    html, body {
+        margin: 0px;
+        font-size: 15px;
+    }
+.butt {
+    margin-right: 15%;
+   
+}
+.com1 h1 {
+    font-size: 1.4rem;
+    
+}
+}
+@media screen and (max-width: 985px) {
+    html, body {
+        margin: 0px;
+        font-size: 13px;
+    }
+    .header {
+        margin-left: 60px;
+        margin-top: 20px;
+        float: none;
+    }
+.butt img {
+    width: 75%;
+}
+.sect2 {
+    background: #e6e6e6;
+}
+}
+
+
+@media screen and (max-width: 852px) {
+    .menu {
+        display: none;
+        position: absolute;
+        background: #00ffff;
+    }
+.menu li {
+    float: none;
+
+}
+.menuToggle {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+}
+#menuCheck:checked  + .menu{
+display: block;
+}
+.butt {
+    margin-top: 0px;
+    margin-right: 58%;
+
+}
+.butt img {
+    width: 120px;
+}
+.sect1 {
+    margin-top: 50px;
+    
+}
+.com1 {
+    width: 100%;
+}
+.com1 b{
+  font-size: 18px;
+  margin-left: 20%;
+}
+.com1 * {
+    margin-left: 5%;
+}
+.com1 p {
+ font-size: 15px;
+}
+.com2 {
+    display: none;
+}
+
+}
+@media screen and (max-width: 470px) {
+    body {
+        width: 100%;
+    }
+    .header {
+        margin-left: 10px;
+        margin-top: 10px;
+}
+.butt {
+    margin-top: 0px;
+    margin-right: 25%;
+
+}
+.com1_1 img{
+    width: 220px;;
+   }
+.com1 {
+    height: 320px;
+}
+.com img {
+    margin-left: 5px;
+}
+.com1 b {
+    margin-left:1.5% ;
+}
+.sect3 {
+    margin-top: 30px;
+}
+footer {
+    height: 400px;
+}
+footer .upf {
+    display: flex;
+    justify-content: space-around;
+}
+.rightside {
+    margin: 0;
+}
+.leftside {
+    margin: 0;
+
+}
+}
